@@ -1,0 +1,26 @@
+#grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+#display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+.zero {
+    grid-column-start: span 2;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
